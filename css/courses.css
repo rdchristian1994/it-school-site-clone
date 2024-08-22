@@ -1,0 +1,124 @@
+.welcome-courses{
+  background-color: var(--bg-primary);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.welcome-contact h1{
+  color: var(--text-white);
+}
+
+
+
+.courses h2, .courses .main-paragraph {
+  text-align: center;
+  margin-top: var(--spacing-large);
+  
+}
+
+.courses .main-paragraph{
+  margin-bottom: var(--spacing-large);
+}
+
+.container-wrapper{
+  
+  width: calc(100% / 3);
+  padding-right: var(--spacing-small);
+  padding-left: var(--spacing-small);
+}
+
+
+@media (max-width: 768px){
+  .container-wrapper{
+    width: 50%;
+  }
+ 
+  
+}
+
+@media (max-width: 576px) {
+  .container-wrapper{
+    width: 100%;
+  }
+  
+}
+
+.courses .course{
+  width: 100%;
+  padding: var(--spacing-tiny);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: var(--spacing-medium);
+
+
+}
+
+ .courses .courses-img{
+  width: 100%;
+  height: auto;
+  margin-bottom: var(--spacing-large);
+}
+
+.courses .content h3{
+  color: var(--bg-primary);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-medium);
+   
+  
+}
+
+.courses .content {
+  padding: 0 var(--spacing-small);
+}
+
+.courses .microsoft-logo{
+  width: 80px;
+  vertical-align: middle;
+  margin-left: var(--spacing-medium);
+}
+
+.details span{
+  color: #666;
+  font-size: var(--fs-medium);
+  vertical-align: middle;
+  padding-right: var(--spacing-tiny);
+ 
+}
+
+.courses .certification{
+  margin-bottom: var(--spacing-medium);
+}
+
+.courses a{
+  margin-bottom: var(--spacing-medium);
+  margin-top: var(--spacing-medium);
+  background-color: var(--button-color);
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  color: var(--text-white);
+  padding: var(--spacing-tiny);
+  font-size: var(--fs-medium);
+  border: 1px solid var(--button-color);
+}
+
+
+
+@media (max-width: 768px){
+  .welcome-courses h1{
+    font-size: 2rem ;
+  }
+  
+  
+}
+
+@media (max-width: 576px) {
+  .welcome-courses h1{
+    font-size: 2rem;
+   
+  }
+  
+}
